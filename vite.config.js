@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/landing-page-dd/', // Assurez-vous que ce chemin est correct pour ton projet
+  base: '/landing-page-dd/', // spécifie le chemin de base de ton projet
   plugins: [react()],
 });
