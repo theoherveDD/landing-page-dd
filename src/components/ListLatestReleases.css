@@ -1,0 +1,76 @@
+.releases-list-container {
+  color: #ffffff;
+}
+
+.releases-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #646cff;
+}
+
+.releases-table {
+
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.releases-table th,
+.releases-table td {
+  text-align: left;
+  font-weight: 200;
+  border-top: 1px solid #404040;
+  height: 30px !important;
+  font-size: 0.8em;
+}
+
+.releases-table th {
+  cursor: pointer;
+  width: 10vw;
+  font-weight: 100;
+}
+
+.releases-table th:nth-child(2),
+.releases-table td:nth-child(2) {
+  width: 20vw; /* Augmenter la largeur de la deuxième colonne */
+}
+
+.releases-table a {
+  color: #646cff;
+  text-decoration: none;
+}
+
+.releases-table a:hover {
+  color: #535bf2;
+}
+
+.tag {
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 100px !important;
+    font-size: 0.8em;
+    padding: 5px 10px !important;
+}
+
+.tag.popularity {
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 100px;
+  font-size: 0.8em;
+  padding: 5px 15px;
+  display: inline-block;
+  text-align: center;
+}
+
+.material-symbols-outlined {
+  font-size: 16px; /* Réduire la taille de l'icône */
+  font-weight: 100 !important; /* Rendre l'icône plus fine */
+  color: #ffffff;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 1px;
+}
+
+.download:hover .material-icons {
+  color: #ffffff;
+}
