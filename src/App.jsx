@@ -1,14 +1,16 @@
-import ListLatestReleases from "./components/ListLatestReleases.jsx";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ListLatestReleases from "./components/ListLatestReleases";
 
-function App() {
-    return (
-        <div className="App">
-            <div className="maincontainer">
-            <h2>Listing of THE LATESTS RELEASES</h2>
-            <ListLatestReleases />
-            </div>
-        </div>
-    );
-}
+const App = () => {
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/" component={ListLatestReleases} />
+        {/* Ajoutez d'autres routes ici si nécessaire */}
+      </Switch>
+    </Router>
+  );
+};
 
 export default App;
